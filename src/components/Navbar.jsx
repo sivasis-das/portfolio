@@ -26,7 +26,7 @@ function Navbar() {
       </ul>
 
       {/* hamburger */}
-      <div onClick={() => setShowNav(!showNav)} className="md:hidden z-10">
+      <div onClick={() => setShowNav(!showNav)} className="md:hidden z-50">
         {showNav ? <RxCross2 size={22} /> : <FaBars />}
       </div>
 
@@ -34,7 +34,7 @@ function Navbar() {
       <ul
         className={`${
           showNav
-            ? "absolute top-0 left-0 w-full h-screen bg-teal-950 flex flex-col justify-center items-center *:py-6 *:text-4xl *:text-lime-500  animate-dropdown"
+            ? "absolute  top-0 left-0 w-full h-screen z-40 bg-teal-950 flex flex-col justify-center items-center *:py-6 *:text-4xl *:text-lime-500  animate-dropdown"
             : "hidden"
         } `}
       >
@@ -49,24 +49,24 @@ function Navbar() {
       <div className="hidden xl:flex fixed flex-col top-[35%] left-0">
         <ul className="">
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600 text-gray-300">
-            <a href="/" className="flex justify-between items-center w-full ">
+            <a href="https://www.linkedin.com/in/sivasisdas1994" target="_blank" className="flex justify-between items-center w-full ">
               LinkedIn <FaLinkedin size={30} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-800 text-gray-300">
-            <a href="/" className="flex justify-between items-center w-full ">
+            <a href="https://github.com/sivasis-das" target="_blank" className="flex justify-between items-center w-full ">
               GitHub
               <FaGithub size={30} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-teal-600 text-gray-300">
-            <a href="/" className="flex justify-between items-center w-full ">
+            <a href="mailto:daspov@gmail.com" target="_blank" className="flex justify-between items-center w-full ">
               Email
               <HiOutlineMail size={30} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-slate-600 text-gray-300">
-            <a href="/" className="flex justify-between items-center w-full ">
+            <a href="https://docs.google.com/document/d/1c8suWDp25YBNrZEWeqbAO8Xhl0WHWCe08t1NXW8zKsc/edit?usp=drive_link" target="_blank" className="flex justify-between items-center w-full ">
               Resume
               <BsFillPersonLinesFill size={30} />
             </a>
