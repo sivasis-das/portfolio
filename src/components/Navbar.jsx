@@ -13,7 +13,7 @@ function Navbar() {
   const [showNav, setShowNav] = useState(false);
   console.log("show nav", showNav);
   return (
-    <div className="w-full h-11 fixed flex justify-between items-center px-4 bg-teal-950 text-gray-400">
+    <div className="w-full h-11 fixed z-50 flex justify-between items-center px-4 bg-teal-950 text-gray-400">
       <div>
         <img src={logo} alt="logo" className="w-10" />
       </div>

@@ -5,7 +5,7 @@ import weather from "../assets/weather.png";
 
 function Works() {
   return (
-    <div name="works" className="w-full md:h-screen bg-lime-500 text-teal-950 ">
+    <div name="works" className="w-full  bg-lime-500 text-teal-950 ">
       <div className="max-w-[1000px] mx-auto p-4 flex- flex-col justify-center w-full h-full">
         <div className=" pt-6">
           <div className="py-4">
@@ -18,12 +18,10 @@ function Works() {
         {/* container */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 overflow-hidden rounded-md  ">
           {/* card */}
-          <div
-            style={{ backgroundImage: `url(${recipe})` }}
-            className="hover:shadow-lg shadow-teal-950 group container rounded-md flex justify-center items-center mx-auto bg-no-repeat h-[250px] bg-cover bg-top overflow-hidden m-3"
-          >
+          <div className="relative hover:shadow-lg shadow-teal-950 group container rounded-md flex justify-center items-center mx-auto bg-no-repeat min-h-[250px]  bg-cover bg-top overflow-hidden m-3">
+            <img src={recipe} alt="" className=" w-full  h-full " />
             {/* hover effect */}
-            <div className="group-hover:bg-teal-950/80 transition duration-700 ease-in-out w-full h-full flex justify-center items-center">
+            <div className="absolute group-hover:bg-teal-950/80 transition duration-700 ease-in-out w-full h-full flex justify-center items-center">
               <div className="opacity-0 group-hover:opacity-100  duration-700 ease-in-out group-hover:transition-opacity text-center">
                 <span className="text-2xl font-bold text-gray-400 tracking-wider">
                   FlavorVerse
@@ -45,12 +43,10 @@ function Works() {
           </div>
 
           {/* card 2 */}
-          <div
-            style={{ backgroundImage: `url(${realtor})` }}
-            className="hover:shadow-lg shadow-teal-950 group container rounded-md flex justify-center items-center mx-auto bg-no-repeat h-[250px] bg-cover bg-top overflow-hidden m-3"
-          >
+          <div className="relative hover:shadow-lg shadow-teal-950 group container rounded-md flex justify-center items-center mx-auto  overflow-hidden m-3">
+            <img src={realtor} alt="" className=" w-full  h-full " />
             {/* hover effect */}
-            <div className="group-hover:bg-teal-950/80 transition duration-700 ease-in-out w-full h-full flex justify-center items-center">
+            <div className="absolute group-hover:bg-teal-950/80 transition duration-700 ease-in-out w-full h-full flex justify-center items-center">
               <div className="opacity-0 group-hover:opacity-100   duration-700 transition-opacity ease-in-out text-center">
                 <span className="text-2xl font-bold text-gray-400 tracking-wider">
                   Realtor.com
@@ -71,12 +67,11 @@ function Works() {
             </div>
           </div>
 
-          <div
-            style={{ backgroundImage: `url(${weather})` }}
-            className="hover:shadow-lg shadow-teal-950 group container rounded-md flex justify-center items-center mx-auto  bg-no-repeat h-[250px] bg-cover bg-top overflow-hidden m-3"
-          >
+          {/* card 3 */}
+          <div className="relative hover:shadow-lg shadow-teal-950 group container rounded-md flex justify-center items-center mx-auto overflow-hidden m-3  ">
+            <img src={weather} alt="" className=" w-full  h-full " />
             {/* hover effect */}
-            <div className="group-hover:bg-teal-950/80 transition duration-700 ease-in-out w-full h-full flex justify-center items-center">
+            <div className="absolute group-hover:bg-teal-950/80 transition duration-700 ease-in-out w-full h-full flex justify-center items-center ">
               <div className="opacity-0 group-hover:opacity-100   duration-700 transition-opacity ease-in-out text-center">
                 <span className="text-2xl font-bold text-gray-400 tracking-wider ">
                   Weather app
