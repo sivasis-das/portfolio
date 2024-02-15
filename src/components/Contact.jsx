@@ -16,6 +16,7 @@ function Contact() {
             or send email at -{" "}
             <a
               href="mailto:sivasisd7@gmail.com"
+              target="_blank"
               className="text-lime-500 hover:text-lime-300 lining-nums tracking-wider"
             >
               sivasisd7@gmail.com
