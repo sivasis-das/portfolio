@@ -1,7 +1,7 @@
 import React from "react";
-import work1 from "../assets/work1.jpeg";
-import work2 from "../assets/work2.jpg";
-import weather from '../assets/weather.png'
+import recipe from "../assets/recipe.png";
+import realtor from "../assets/realtor.png";
+import weather from "../assets/weather.png";
 
 function Works() {
   return (
@@ -19,14 +19,14 @@ function Works() {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 overflow-hidden rounded-md  ">
           {/* card */}
           <div
-            style={{ backgroundImage: `url(${work1})` }}
+            style={{ backgroundImage: `url(${recipe})` }}
             className="hover:shadow-lg shadow-teal-950 group container rounded-md flex justify-center items-center mx-auto bg-no-repeat h-[250px] bg-cover bg-top overflow-hidden m-3"
           >
             {/* hover effect */}
             <div className="group-hover:bg-teal-950/80 transition duration-700 ease-in-out w-full h-full flex justify-center items-center">
               <div className="opacity-0 group-hover:opacity-100  duration-700 ease-in-out group-hover:transition-opacity text-center">
                 <span className="text-2xl font-bold text-gray-400 tracking-wider">
-                  React JS app
+                  FlavorVerse
                 </span>
                 <div className="pt-8 text-center">
                   <a href="/">
@@ -46,14 +46,14 @@ function Works() {
 
           {/* card 2 */}
           <div
-            style={{ backgroundImage: `url(${work2})` }}
+            style={{ backgroundImage: `url(${realtor})` }}
             className="hover:shadow-lg shadow-teal-950 group container rounded-md flex justify-center items-center mx-auto bg-no-repeat h-[250px] bg-cover bg-top overflow-hidden m-3"
           >
             {/* hover effect */}
             <div className="group-hover:bg-teal-950/80 transition duration-700 ease-in-out w-full h-full flex justify-center items-center">
-              <div className="opacity-0 group-hover:opacity-100   duration-700 transition-opacity ease-in-out ">
+              <div className="opacity-0 group-hover:opacity-100   duration-700 transition-opacity ease-in-out text-center">
                 <span className="text-2xl font-bold text-gray-400 tracking-wider">
-                  Real Estate app
+                  Realtor.com
                 </span>
                 <div className="pt-8 text-center">
                   <a href="/">
