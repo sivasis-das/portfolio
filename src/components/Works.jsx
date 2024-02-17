@@ -5,7 +5,7 @@ import weather from "../assets/weather.png";
 
 function Works() {
   return (
-    <div name="works" className="w-full  bg-lime-500 text-teal-950 ">
+    <div name="works" className="w-full bg-lime-500 text-teal-950 ">
       <div className="max-w-[1000px] mx-auto p-4 flex- flex-col justify-center w-full h-full">
         <div className=" pt-6">
           <div className="py-4">
@@ -16,9 +16,9 @@ function Works() {
           <p className="py-3">Check out some of my recent works</p>
         </div>
         {/* container */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 overflow-hidden rounded-md  ">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 overflow-hidden rounded-md ">
           {/* card */}
-          <div className="relative hover:shadow-lg shadow-teal-950 group container rounded-md flex justify-center items-center mx-auto bg-no-repeat min-h-[250px]  bg-cover bg-top overflow-hidden m-3">
+          <div className="relative hover:shadow-lg shadow-teal-950 group container rounded-md flex justify-center items-center mx-auto  overflow-hidden">
             <img src={recipe} alt="" className=" w-full  h-full " />
             {/* hover effect */}
             <div className="absolute group-hover:bg-teal-950/80 transition duration-700 ease-in-out w-full h-full flex justify-center items-center">
@@ -27,12 +27,18 @@ function Works() {
                   FlavorVerse
                 </span>
                 <div className="pt-8 text-center">
-                  <a href="/">
+                  <a
+                    href="https://flavorverse-sivasis.netlify.app/"
+                    target="_blank"
+                  >
                     <button className="py-3 m-2 bg-white text-gray-700 font-bold text-lg px-4 rounded-lg text-center hover:bg-lime-500 hover:text-white duration-300">
                       Demo
                     </button>
                   </a>
-                  <a href="/">
+                  <a
+                    href="https://github.com/sivasis-das/FlavorVerse"
+                    target="_blank"
+                  >
                     <button className="py-3 m-2 bg-white text-gray-700 font-bold text-lg px-4 rounded-lg text-center hover:bg-lime-500 hover:text-white duration-300">
                       Code
                     </button>
@@ -43,7 +49,7 @@ function Works() {
           </div>
 
           {/* card 2 */}
-          <div className="relative hover:shadow-lg shadow-teal-950 group container rounded-md flex justify-center items-center mx-auto  overflow-hidden m-3">
+          <div className="relative hover:shadow-lg shadow-teal-950 group container rounded-md flex justify-center items-center mx-auto  overflow-hidden ">
             <img src={realtor} alt="" className=" w-full  h-full " />
             {/* hover effect */}
             <div className="absolute group-hover:bg-teal-950/80 transition duration-700 ease-in-out w-full h-full flex justify-center items-center">
@@ -68,7 +74,7 @@ function Works() {
           </div>
 
           {/* card 3 */}
-          <div className="relative hover:shadow-lg shadow-teal-950 group container rounded-md flex justify-center items-center mx-auto overflow-hidden m-3  ">
+          <div className="relative hover:shadow-lg shadow-teal-950 group container rounded-md flex justify-center items-center mx-auto overflow-hidden">
             <img src={weather} alt="" className=" w-full  h-full " />
             {/* hover effect */}
             <div className="absolute group-hover:bg-teal-950/80 transition duration-700 ease-in-out w-full h-full flex justify-center items-center ">
@@ -77,12 +83,12 @@ function Works() {
                   Weather app
                 </span>
                 <div className="pt-8 text-center">
-                  <a href="/">
+                  <a href="https://weather-sivasis.netlify.app/">
                     <button className="py-3 m-2 bg-white text-gray-700 font-bold text-lg px-4 rounded-lg text-center hover:bg-lime-500 hover:text-white duration-300">
                       Demo
                     </button>
                   </a>
-                  <a href="/">
+                  <a href="https://github.com/sivasis-das/weather">
                     <button className="py-3 m-2 bg-white text-gray-700 font-bold text-lg px-4 rounded-lg text-center hover:bg-lime-500 hover:text-white duration-300">
                       Code
                     </button>
