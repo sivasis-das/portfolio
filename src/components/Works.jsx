@@ -1,11 +1,11 @@
 import React from "react";
 import recipe from "../assets/recipe.png";
-import realtor from "../assets/realtor.png";
+import sukhadhama from "../assets/sukhadhama.png";
 import weather from "../assets/weather.png";
 
 function Works() {
   return (
-    <div name="works" className="w-full bg-lime-500 text-teal-950 ">
+    <div name="works" className="w-full bg-lime-500 text-teal-950 md:h-screen">
       <div className="max-w-[1000px] mx-auto p-4 flex- flex-col justify-center w-full h-full">
         <div className=" pt-6">
           <div className="py-4">
@@ -50,20 +50,20 @@ function Works() {
 
           {/* card 2 */}
           <div className="relative hover:shadow-lg shadow-teal-950 group container rounded-md flex justify-center items-center mx-auto  overflow-hidden ">
-            <img src={realtor} alt="" className=" w-full  h-full " />
+            <img src={sukhadhama} alt="" className=" w-full  h-full " />
             {/* hover effect */}
             <div className="absolute group-hover:bg-teal-950/80 transition duration-700 ease-in-out w-full h-full flex justify-center items-center">
               <div className="opacity-0 group-hover:opacity-100   duration-700 transition-opacity ease-in-out text-center">
                 <span className="text-2xl font-bold text-gray-400 tracking-wider">
-                  Realtor.com
+                  SukhaDhama.com
                 </span>
                 <div className="pt-8 text-center">
-                  <a href="/">
+                  <a href="https://sukhadhama.onrender.com/" target="_blank">
                     <button className="py-3 m-2 bg-white text-gray-700 font-bold text-lg px-4 rounded-lg text-center hover:bg-lime-500 hover:text-white duration-300">
                       Demo
                     </button>
                   </a>
-                  <a href="/">
+                  <a href="https://github.com/sivasis-das/sukhadhama" target="_blank">
                     <button className="py-3 m-2 bg-white text-gray-700 font-bold text-lg px-4 rounded-lg text-center hover:bg-lime-500 hover:text-white duration-300">
                       Code
                     </button>
@@ -83,12 +83,12 @@ function Works() {
                   Weather app
                 </span>
                 <div className="pt-8 text-center">
-                  <a href="https://weather-sivasis.netlify.app/">
+                  <a href="https://weather-sivasis.netlify.app/" target="_blank">
                     <button className="py-3 m-2 bg-white text-gray-700 font-bold text-lg px-4 rounded-lg text-center hover:bg-lime-500 hover:text-white duration-300">
                       Demo
                     </button>
                   </a>
-                  <a href="https://github.com/sivasis-das/weather">
+                  <a href="https://github.com/sivasis-das/weather" target="_blank">
                     <button className="py-3 m-2 bg-white text-gray-700 font-bold text-lg px-4 rounded-lg text-center hover:bg-lime-500 hover:text-white duration-300">
                       Code
                     </button>
