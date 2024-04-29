@@ -1,6 +1,6 @@
 import React from "react";
 import { FaArrowRight, FaGithub, FaLinkedin } from "react-icons/fa";
-import resume from "../assets/Sivasis Resume 2023 pdf.pdf"
+import resume from "../assets/Sivasis das.pdf"
 
 function Home() {
   return (

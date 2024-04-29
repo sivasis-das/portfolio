@@ -7,7 +7,7 @@ import { FaGithub } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
-import resume from "../assets/Sivasis Resume 2023 pdf.pdf"
+import resume from "../assets/Sivasis das.pdf"
 
 function Navbar() {
   const [showNav, setShowNav] = useState(false);
